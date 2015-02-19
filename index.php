@@ -7,16 +7,29 @@
 	<link rel="stylesheet" href="stilo/normalize.css" />
 	<link rel="stylesheet" href="stilo/estilos.css" />
 	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="funciones/fun.js"></script>
 </head>
 <body>
 	<header>
-		<figure id="logo">
+		<!--<figure id="logo">
 					<img src="images/name.png" />
-		</figure>
+		</figure>-->
+		<h1>Buscame.in</h1>
 	</header>
-	<nav></nav>
-	<section>
-		<article></article>
+		<nav>
+			<ul>
+				
+				<li><a href="#"></a>Categorias</li>
+			</ul>	
+		</nav>
+	
+	
+	<section id="busqueda">
+		<article id="busqart">
+				<label id="buscarlbl">Buscar: </label>
+				<input type="text" name="buscar" id="buscartxt" onkeyup="buscar()">
+				<div id="rs">Resultados...</div>
+		</article>
 	</section>
 	<footer>
 		<p>
