@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -27,7 +30,7 @@
 	<section id="busqueda">
 		<article id="busqart">
 				<label id="buscarlbl">Buscar: </label>
-				<input type="text" name="buscar" id="buscartxt" onkeyup="buscar()">
+				<input type="search" name="buscar" id="buscartxt" size="150"  autofocus onkeypress="buscar()" placeholder="Busca por nombre, categoria o descripcion del negocio">
 				<div id="rs">Resultados...</div>
 		</article>
 	</section>
