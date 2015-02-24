@@ -3,7 +3,7 @@ body
 	background: #CCCCCC;
 	font-family: 'Comfortaa', cursive;
 	font-size: 16px;
-	
+
 }
 
 h1
@@ -55,4 +55,23 @@ footer
 	color: rgba(255,255,255,0.7);
 	padding: .8em;
 	text-align: center;
+}
+
+#busqart
+{
+	margin:0 auto 0 auto;
+	width: 90%
+}
+
+input[type=search] { 
+	color: navy-blue;  
+	cursor: text;
+	text-align: center;
+	width: 100%; 
+	letter-spacing: 2px;        
+	text-shadow: 0 0 1px black;       
+	word-spacing: 10px;     
+	border-radius: 15px;  
+	outline: none;
+	      
 }

@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: text/html; charset=UTF-8');
 require 'funciones/data.php';
 require 'funciones/naruto.php';
 
@@ -15,7 +16,7 @@ $rs=mysql_query($sn);
 echo "<table><tr><th>Nombre del Negocio</th><th>Categoria</th></tr>";
 
 while($fila=mysql_fetch_array($rs)){
-echo "<tr><td>".$fila['nombre']."</td><td>".$fila['categoria']."</td></tr>";
+echo "<tr><td>".$fila['nombre']."</td><td>".$fila['categoria']."</td><td>".$fila['descripcion']."</td></tr>";
 }
 
 echo "</tr></table>";
